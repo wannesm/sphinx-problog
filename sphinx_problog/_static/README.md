@@ -21,8 +21,9 @@ Additionally, `sphinx-problog` requires [`ace.js`](ace.js) version
 [Ajax.org Cloud9 Editor (BSD)](https://github.com/ajaxorg/ace) --
 and two ProbLog-specific files:
 
-- `mode-problog.js` and
-- `problog_editor_advanced.js`.
+- `mode-problog.js`,
+- `problog_editor_advanced.js` and
+- `jquery-fix.js`,
 
 These are distributed under the *Apache V2 License* (see below)
 and were copied from the [ProbLog repository] (version 2.1.0.13.dev2).
