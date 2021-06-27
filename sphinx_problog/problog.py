@@ -14,18 +14,16 @@ from docutils.parsers.rst import Directive
 import sphinx_problog
 
 DEPENDENCIES = [  # See sphinx_problog/_static/README.md for more info
-    # Ace -- Ajax.org Cloud9 Editor (BSD): https://github.com/ajaxorg/ace
-    'https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js',
     # jQuery (MIT): https://github.com/jquery/jquery
     'https://code.jquery.com/jquery-2.1.0.min.js',
     # jQuery UI (MIT): https://github.com/jquery/jquery-ui
     'https://code.jquery.com/ui/1.11.1/jquery-ui.min.js',
     # CryptoJS (MIT): https://github.com/brix/crypto-js
-    'https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js'
+    'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/md5.js'
 ]
 
 STATIC_CSS_FILES = ['sphinx-problog.css']
-STATIC_JS_FILES = ['mode-problog.js', 'problog_editor_advanced.js']
+STATIC_JS_FILES = ['mode-problog.js', 'problog_editor_advanced.js', 'ace.js']
 STATIC_FILES = STATIC_CSS_FILES + STATIC_JS_FILES
 
 if sys.version_info >= (3, 0):

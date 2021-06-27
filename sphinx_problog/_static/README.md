@@ -6,7 +6,6 @@ some of which are loaded from various CDNs.
 These files are loaded by the `sphinx_problog.problog` Python module, which
 lists them under the `DEPENDENCIES` variable. These are:
 
-- [Ace] -- Ajax.org Cloud9 Editor (BSD),
 - [CryptoJS] (MIT),
 - [jQuery] (MIT) and
 - [jQuery UI] (MIT).
@@ -17,7 +16,10 @@ lists them under the `DEPENDENCIES` variable. These are:
 [jQuery UI]: https://github.com/jquery/jquery-ui
 
 ## Local Requirements ##
-Additionally, `sphinx-problog` requires ProbLog-specific files:
+Additionally, `sphinx-problog` requires [`ace.js`](ace.js) version
+[1.1.3](https://cdnjs.cloudflare.com/ajax/libs/ace//ace.js) --
+[Ajax.org Cloud9 Editor (BSD)](https://github.com/ajaxorg/ace) --
+and two ProbLog-specific files:
 
 - `mode-problog.js` and
 - `problog_editor_advanced.js`.
